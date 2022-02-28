@@ -1,6 +1,7 @@
 function appendImg(keyword, index) {
     const imgElem=document.createElement('img');
-    imgElem.src=`https://source.unsplash.com/400x255/?${keyword}&sig=${index}`;
+    imgElem.src = `https://source.unsplash.com/400x225/?${keyword}&sig=${index}`;
+    //imgElem.src=`https://source.unsplash.com/400x255/?${keyword}&sig=${index}`;
     //imgElem.src=`https://source.unsplash.com/400*225/?${keyword}&sig=${index}`;
 
     const galleryElem=document.querySelector('.gallery');
